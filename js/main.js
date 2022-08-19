@@ -42,13 +42,13 @@ const renderProduct = (obj) => {
 	return `<div class="product-item">
                 <h3 class="product-title">${obj.title}</h3>
 					 <img class="product-img" src="${obj.img} alt="${obj.title}">
-                <p class="product-price">${obj.price}</p>
-                <button data-productid="${obj}" class="product-buy-btn">Купить</button>
+                <p class="product-price">${obj.price.toLocaleString()} $</p>
+                <button data-productid="${obj}" class="product__buy-btn">Купить</button>
             </div>`
 };
 const renderPage = list => {
 	const productsList = list.map(item => renderProduct(item));
-	console.log(productsList);
+	//console.log(productsList);
 	document.querySelector('.products').innerHTML = productsList.join('');
 };
 
