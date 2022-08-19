@@ -4,14 +4,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Интернет-магазин</title>
-	<link rel="stylesheet" href="css/style.scc">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+		rel="stylesheet">
 </head>
 
 <body>
-	<header>
-		<button class="btn-cart" type="button">Корзина</button>
+	<header class="header">
+		<div class="container">
+			<button class="btn-cart" type="button">Корзина</button>
+		</div>
 	</header>
-	<main>
+
+	<main class="catalog container">
 		<div class="products"></div>
 	</main>
 	<script src="js/main.js"></script>
