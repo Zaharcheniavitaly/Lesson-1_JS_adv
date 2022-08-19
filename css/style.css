@@ -10,7 +10,7 @@ body {
 }
 
 .container{
-	max-width: 1140px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -28,7 +28,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding: 10px 115px;
+	padding: 10px 0;
 }
 
 .header-title{
@@ -136,6 +136,5 @@ box-shadow: 0px 4px 5px 1px rgb(0 0 0 / 50%);
 h4{
 	margin-top: 20px;
 	padding-top: 20px;
-	padding-left: 115px;
 	color: white;
 }
